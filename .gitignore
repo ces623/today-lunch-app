@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+coverage/
+
+# Hosting & deployment directories
+.vercel/
+.netlify/
+
+# System & editor files
+.DS_Store
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Environment variables & sensitive keys (Never commit secrets)
+.env
+.env.*
+*.pem
+*.key
+
